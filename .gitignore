@@ -1,0 +1,48 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+.env.local
+
+# Database & Data
+violations.db
+violations.db-journal
+violations.db-wal
+violations.db-shm
+images/
+chroma_db/
+mv_act_chroma/
+runs/
+Helmet-and-Number-Plate-Detection-for-Motorbike-Safety-3/
+TVD-11/
+
+# Next.js & Node
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+web/.pnp.*
+web/.yarn/*
+!web/.yarn/patches
+!web/.yarn/plugins
+!web/.yarn/releases
+!web/.yarn/sdks
+!web/.yarn/versions
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
